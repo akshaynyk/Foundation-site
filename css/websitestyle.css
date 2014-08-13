@@ -1,0 +1,190 @@
+
+
+nav {
+     width: 100%;
+     position: fixed;
+     top: 0;
+     color:black;
+     font-family: 'copperplate';
+     }
+
+
+footer{
+  position:fixed;
+  top:30%;
+} 
+
+body{
+  background-color: black;
+
+  font:13.5px/17.5px;
+  border-radius: 0px;
+}
+
+.box {
+  background: OrangeRed;
+  float: left;
+  margin: 1.258736059%;
+  padding: .000001px;
+  text-align: center;
+  width: 28.615861214%;
+
+}
+
+  #picture { 
+  position: fixed; 
+  top: 7.8%;
+  left: 21.7%;
+
+}
+
+ p {
+   color: OrangeRed;
+  position: fixed; 
+  top: 82%;
+  left:35%;
+  font-size: 153%;
+  font-family: 'copperplate'
+}
+
+#tel p{
+color: white;
+  position: fixed; 
+  top: 93%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+
+#email p{
+color: white;
+  position: fixed; 
+  top: 95%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+a {
+    color: #000; 
+    color: inherit;
+}
+
+#icons {
+     position: fixed;
+     bottom: 0;
+     right: 5%;
+}
+
+#logo {
+  position:fixed;
+  top:10%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.box:hover
+{ 
+background-color:white;
+}
+@media all and (min-width: 1264px) and (max-width: 1580px) {
+body{ background-color: OrangeRed}
+#caption p {color:white;}
+.box {
+  background:white;
+  }
+ul {
+ list-style: none;
+}
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+
+}
+@media all and (min-width: 480px) and (max-width: 960px) { 
+
+#caption p{
+  display: none;
+}
+
+.box {
+  background: grey;
+  float: left;
+  margin: 1.258736059%;
+  padding: 1px 0;
+  text-align: center;
+  width: 80.615861214%;
+}
+.box:hover
+{ 
+background-color:yellow;
+}
+
+#tel p{
+color: grey;
+  position: fixed; 
+  top: 93%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+
+#email p{
+color: grey;
+  position: fixed; 
+  top: 95%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+}
+
+@media all and (max-width: 480px) {
+#vid{
+  display: none;
+}
+#caption p{
+  display: none;
+}
+.box {
+  background: yellow;
+  float: left;
+  margin: 1.258736059%;
+  padding: 1px 0;
+  text-align: center;
+  width: 80.615861214%;
+}
+.box:hover
+{ 
+background-color:yellow;
+}
+
+#tel p{
+color: yellow;
+  position: fixed; 
+  top: 93%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
+
+
+#email p{
+color: yellow;
+  position: fixed; 
+  top: 95%;
+  left:10%;
+  font-size: 85%;
+  font-family: 'copperplate'
+
+}
