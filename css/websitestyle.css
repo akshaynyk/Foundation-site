@@ -1,7 +1,7 @@
 
 
 nav {
-     width: 100%;
+     width: 105%;
      position: fixed;
      top: 0;
      color:black;
@@ -24,10 +24,10 @@ body{
 .box {
   background: OrangeRed;
   float: left;
-  margin: 1.258736059%;
-  padding: .000001px;
+  margin: 1.758736059%;
+  padding: -10px;
   text-align: center;
-  width: 28.615861214%;
+  width: 19.615861214%;
 
 }
 
@@ -38,11 +38,21 @@ body{
 
 }
 
+#description p{
+  color: white;
+  position: fixed;
+  top: 76%;
+  left:23%;
+  font-size: 108%;
+
+
+}
+
  p {
    color: OrangeRed;
   position: fixed; 
-  top: 82%;
-  left:35%;
+  top: 70%;
+  left:33%;
   font-size: 153%;
   font-family: 'copperplate'
 }
@@ -92,7 +102,8 @@ a:link {
 { 
 background-color:white;
 }
-@media all and (min-width: 1264px) and (max-width: 1580px) {
+
+@media all and (min-width: 1300px) and (max-width: 1580px) {
 body{ background-color: OrangeRed}
 #caption p {color:white;}
 .box {
@@ -101,12 +112,16 @@ body{ background-color: OrangeRed}
 ul {
  list-style: none;
 }
+
  }
 
 @media all and (min-width: 768px) and (max-width: 1024px) { 
 
 }
-@media all and (min-width: 480px) and (max-width: 960px) { 
+@media all and (min-width: 200px) and (max-width: 960px) { 
+  #description p{
+  display: none;
+}
 
 #caption p{
   display: none;
@@ -145,10 +160,24 @@ color: grey;
   font-family: 'copperplate'
 
 }
+#pics {
+  position: fixed;
+  top: 40%;
+  left:0%;
 
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 640px) {
+#pics {
+  position: fixed;
+  top:18.8%;
+  left:0%;
+
+
+}
+#description p{
+  display: none;
+}
 #vid{
   display: none;
 }

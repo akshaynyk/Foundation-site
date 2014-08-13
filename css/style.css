@@ -1,4 +1,21 @@
 
+nav {
+     width: 105%;
+     position: fixed;
+     top: 0;
+     color:black;
+     font-family: 'copperplate';
+     }
+
+ .box {
+  background: OrangeRed;
+  float: left;
+  margin: 1.258736059%;
+  padding: .000001px;
+  text-align: center;
+  width: 19.615861214%;
+
+}	
 body {
  
   font-family: 'copperplate';
@@ -9,7 +26,7 @@ h1{
 	color: OrangeRed;
 	position:fixed;
 	left:05%;
-	top:00%;
+	top:01%;
 	font-size: 230%;
 }
 
@@ -28,7 +45,7 @@ background-color: OrangeRed;
  
 p{
  	font-size: 120%;
-	color: white;
+	color: black;
 	position: fixed;
 	left: 9%;
 	top: 8%;
