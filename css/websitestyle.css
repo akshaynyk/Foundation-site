@@ -37,7 +37,10 @@ body{
   left: 21.7%;
 
 }
-
+.box:hover
+{ 
+background-color:black;
+}
 #description p{
   color: white;
   position: fixed;
@@ -79,15 +82,12 @@ color: white;
 }
 
 a {
-    color: #000; 
-    color: inherit;
+    color: black;
+}
+a:hover {
+    color: white;
 }
 
-#icons {
-     position: fixed;
-     bottom: 0;
-     right: 5%;
-}
 
 #logo {
   position:fixed;
@@ -98,10 +98,9 @@ a:link {
     text-decoration: none;
 }
 
-.box:hover
-{ 
-background-color:white;
-}
+a {
+  display:block;
+  }
 
 @media all and (min-width: 1300px) and (max-width: 1580px) {
 body{ background-color: OrangeRed}
@@ -114,9 +113,16 @@ ul {
 }
 
  }
-
-@media all and (min-width: 768px) and (max-width: 1024px) { 
-
+.box:hover
+{ 
+background-color:OrangeRed;
+}
+}
+@media all and (min-width: 768px) and (max-width: 1299px) { 
+  .box:hover
+{ 
+background-color:white;
+}
 }
 @media all and (min-width: 200px) and (max-width: 960px) { 
   #description p{
@@ -133,11 +139,11 @@ ul {
   margin: 1.258736059%;
   padding: 1px 0;
   text-align: center;
-  width: 80.615861214%;
+  width: 92.615861214%;
 }
 .box:hover
 { 
-background-color:yellow;
+background-color:white;
 }
 
 #tel p{
@@ -190,7 +196,8 @@ color: grey;
   margin: 1.258736059%;
   padding: 1px 0;
   text-align: center;
-  width: 80.615861214%;
+  width: 20.615861214%;
+  font-size: 90%
 }
 .box:hover
 { 
